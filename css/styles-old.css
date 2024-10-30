@@ -1,10 +1,4 @@
 /* --- Global Styles --- */
-
-.section {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
-
 /* --- Styles of h2 --- */
 
 .content-heading {
@@ -19,26 +13,7 @@
 }
 
 /* --- Styles of h3 --- */
-
-.content-subheading {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  color: var(--dark-color);
-  letter-spacing: 0.02em;
-  margin-bottom: 8px;
-}
-
 /* --- Styles of p in card */
-
-.content-text {
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  color: var(--text-color);
-}
-
 /* --- Logo Styles --- */
 
 .highlighted-text-light {
@@ -46,49 +21,9 @@
 }
 
 /* --- Header Styles --- */
-
 /* --- Header Links Styles --- */
-
 /* --- Section Hero Styles --- */
-
-.hero {
-  max-width: 1440px;
-  padding-top: 188px;
-  padding-bottom: 188px;
-}
-
-.heading {
-  font-size: 56px;
-  line-height: 1.07;
-  max-width: 496px;
-  margin-bottom: 48px;
-}
-
 /* --- Section Features --- */
-
-.features-list {
-  display: flex;
-  gap: 24px;
-}
-
-.features-list-item {
-  flex-basis: calc((100% - 3 * 24px) / 4);
-}
-
-.features-subheading {
-  margin-bottom: 8px;
-}
-
-.features-icon-box {
-  background-color: var(--light-color);
-  border: 1px solid var(--subtle-text-color);
-  border-radius: 4px;
-  margin-bottom: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 112px;
-}
 
 /* --- Section Our Team --- */
 
