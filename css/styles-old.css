@@ -52,7 +52,7 @@
 /* --- Section Hero Styles --- */
 
 .hero {
-  background-color: var(--dark-color);
+  /* background-color: var(--dark-color);
   background-image: linear-gradient(
       var(--hero-background-color),
       var(--hero-background-color)
@@ -60,57 +60,21 @@
     url(../images/people-office.jpg);
   background-repeat: no-repeat;
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
   max-width: 1440px;
-  margin-left: auto;
-  margin-right: auto;
+  /* margin-left: auto;
+  margin-right: auto; */
 
   padding-top: 188px;
   padding-bottom: 188px;
-  text-align: center;
+  /* text-align: center; */
 }
 
 .heading {
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
-  text-align: center;
-  color: var(--white-background-color);
-  letter-spacing: 0.02em;
   max-width: 496px;
-  margin-left: auto;
-  margin-right: auto;
   margin-bottom: 48px;
-}
-
-.action-element {
-  display: block;
-  border: none;
-  background: var(--primary-brand-color);
-
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  color: var(--white-background-color);
-  line-height: 1.5;
-
-  border-radius: 4px;
-  min-width: 169px;
-  height: 56px;
-  padding: 16px 32px;
-  margin-left: auto;
-  margin-right: auto;
-
-  font-family: inherit;
-
-  transition-property: background-color;
-  transition-duration: var(--transition-duration);
-  transition-timing-function: var(--timing-function);
-  transition-delay: 0;
-}
-
-.action-element:hover,
-.action-element:focus {
-  background: var(--pressed-state-color);
 }
 
 /* --- Section Features --- */
