@@ -1,17 +1,5 @@
 /* --- Global Styles --- */
 /* --- Styles of h2 --- */
-
-.content-heading {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  color: var(--dark-color);
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  margin-bottom: 72px;
-}
-
 /* --- Styles of h3 --- */
 /* --- Styles of p in card */
 /* --- Logo Styles --- */
@@ -27,26 +15,9 @@
 
 /* --- Section Our Team --- */
 
-.our-team {
-  background-color: var(--light-color);
-}
-
 .our-team-list {
-  display: flex;
+  /* display: flex; */
   gap: 24px;
-}
-
-.list-item {
-  background-color: var(--white-background-color);
-  border-radius: 0px 0px 4px 4px;
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
-}
-
-.our-tem-card-content {
-  padding-top: 32px;
-  padding-bottom: 32px;
-  text-align: center;
 }
 
 .our-tem-soc-list {
