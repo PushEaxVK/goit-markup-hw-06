@@ -113,9 +113,6 @@ button {
 
 .header {
   width: 100%;
-  /* position: fixed;
-  top: 0;
-  left: 0; */
   background-color: var(--white-background-color);
   border-bottom: 1px solid var(--accent-color);
   box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08),
@@ -384,7 +381,8 @@ button {
 }
 
 .mobile-link:hover,
-.mobile-link:focus {
+.mobile-link:focus,
+.mobile-link.current {
   color: var(--pressed-state-color);
 }
 
@@ -850,14 +848,8 @@ button {
   gap: 72px;
 }
 
-.features-list-item {
-}
-
 .features-icon-box {
   display: none;
-}
-
-.features-icon {
 }
 
 .content-subheading {
@@ -999,15 +991,6 @@ button {
   text-align: center;
   color: var(--text-color);
   margin-bottom: 8px;
-}
-
-.our-tem-soc-list {
-}
-.social-item {
-}
-.social-link {
-}
-.social-icon {
 }
 
 @media screen and (min-width: 768px) {
